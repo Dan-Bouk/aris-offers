@@ -1,4 +1,4 @@
-# CMO Offers
+# ARIS Offers
 
 JavaFX desktop application for managing customer offers and reference documents.
 
