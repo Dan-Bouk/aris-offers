@@ -1,23 +1,33 @@
 # ARIS Offers
 
-JavaFX desktop application for managing customer offers and reference documents.
+ARIS Offers is a desktop application built with **Java and JavaFX** for managing customer offers and related reference documents.
+
+The project was developed as a personal project to apply and strengthen my skills in Java desktop development, database integration, and application architecture.
+
+## Features
+
+- Create, edit, view, and manage offers
+- Manage reference documents and related data
+- Store and retrieve data using PostgreSQL
+- Import and export data in JSON format
+- Export offer data to Excel
+- Desktop user interface built with JavaFX
 
 ## Technologies
 
 - Java
 - JavaFX
-- Maven
 - PostgreSQL
+- JDBC
+- Maven
+- Git / GitHub
 
-## Features
+## Project Structure
 
-- Offer management
-- Reference management
-- Excel export
-- JSON import/export
+The application separates the user interface, application logic, and data management responsibilities to keep the code organized and maintainable.
 
-Before running the application, configure these environment variables in Eclipse:
+## Status
 
-- DB_URL=jdbc:postgresql://localhost:5432/cmo_offers
-- DB_USER=your_username
-- DB_PASSWORD=your_password
+🚧 **Work in progress**
+
+The application is currently under active development. Additional features and improvements are planned as the project evolves.
